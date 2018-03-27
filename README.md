@@ -1,6 +1,6 @@
 # Graph-based Stairway Detection using PointCloud Data -- GUI Version
 
-![alt text](https://github.com/ThomasWestfechtel/StairwayDetection/blob/master/pics/resultExample.png "Staiway Detection Example")
+![alt text](https://github.com/ThomasWestfechtel/StairwayDetectionGUI/blob/master/pics/StairDetectionGUI.png "Staiway Detection and its GUI example")
 
 To install the repository:
 
