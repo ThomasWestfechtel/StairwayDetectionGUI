@@ -17,7 +17,7 @@ make -j8
 
 There are 2 example pcd files in the example folder to test the algorihtm. When loading point cloud, the main window does not change its view automatically and has to be changed using keyboard/mouse to alighn the point cloud in the window.
 
-Depending on the accuracy of the employed LIDAR some parameters need to be tuned accordingly. Most important are the parameters of the region growing algorithm in src/regiongrowing.h
+Depending on the accuracy of the employed LIDAR some parameters need to be tuned accordingly -- especially the parameters for the segmentation process.
 
 This is the GUI version of the Stairway Detection. A stand alone version can be found at:
 https://github.com/ThomasWestfechtel/StairwayDetection
