@@ -12,7 +12,7 @@ cd build
 
 cmake ..
 make -j8
-./pcl_viewer
+./pcl_visualizer
 ```
 
 There are 2 example pcd files in the example folder to test the algorihtm. When loading point cloud, the main window does not change its view automatically and has to be changed using keyboard/mouse to alighn the point cloud in the window.
