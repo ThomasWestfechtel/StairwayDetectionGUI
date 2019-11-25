@@ -22,6 +22,9 @@ Depending on the accuracy of the employed LIDAR some parameters need to be tuned
 This is the GUI version of the Stairway Detection. A stand alone version can be found at:
 https://github.com/ThomasWestfechtel/StairwayDetection
 
-The processing steps of the algorihm are explained in "3D graph based stairway detection and localization for mobile robots" (http://ieeexplore.ieee.org/document/7759096/).
+The processing steps of the algorihm are explained in our papers:
+"Robust stairway-detection and localization method for mobile robots using a graph-based model and competing initializations" (https://journals.sagepub.com/doi/full/10.1177/0278364918798039) (IJRR)
+and
+"3D graph based stairway detection and localization for mobile robots" (http://ieeexplore.ieee.org/document/7759096/) (IROS).
 
 ![alt text](https://github.com/ThomasWestfechtel/StairwayDetection/blob/master/pics/stairGraph.png "Graph-based Detection")
