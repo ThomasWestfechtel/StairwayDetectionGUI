@@ -15,6 +15,8 @@ make -j8
 ./pcl_visualizer
 ```
 
+Depending on the version there might be an linker error - in this case try replacing CMakeLists.txt with CMakeLists_V2.txt
+
 There are 2 example pcd files in the example folder to test the algorihtm. When loading point cloud, the main window does not change its view automatically and has to be changed using keyboard/mouse to alighn the point cloud in the window.
 
 Depending on the accuracy of the employed LIDAR some parameters need to be tuned accordingly -- especially the parameters for the segmentation process.
