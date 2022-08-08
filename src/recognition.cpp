@@ -1397,7 +1397,7 @@ bool recognition::widthReqCirc(segmentPatch& testPatch, int stairNo)
     for(int partIdx = 0; partIdx < stairs.at(stairCount).stairParts.size(); partIdx++)
     {
 //    	double gwStart = pcl::getTime();
-//    	stairs.at(stairCount).stairParts.at(partIdx).getWidth(stairPos,widthVec);
+    	stairs.at(stairCount).stairParts.at(partIdx).getWidth(stairPos,widthVec);
 //    	double gwEnd = pcl::getTime();
 //    	getWTime += gwEnd - gwStart;
         minOffsetVec.push_back(stairs.at(stairCount).stairParts.at(partIdx).width[0]);
